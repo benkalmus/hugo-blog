@@ -1,15 +1,15 @@
 baseURL = 'https://benkalmus.com/'
 languageCode = 'en-gb'
-title = "Ben's Personal Blog"
+title = "Ben's Notes"
 theme = "beautifulhugo"
 
 
 # baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+# pygmentsStyle = "trac"
+# pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
@@ -17,9 +17,9 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-subtitle = "Build a beautiful and simple website in minutes"
+subtitle = "A collection of posts about software development, my hobbies and guides."
 mainSections = ["post", "posts"]
-logo = "img/avatar-icon.png"                                 # Expecting square dimensions
+logo = "img/profile-pic-italy.jpg"                                                    # Expecting square dimensions
 favicon = "img/favicon.ico"
 dateFormat = "January 2, 2006"
 commit = false
@@ -34,12 +34,12 @@ showRelatedPosts = true
 #  cusdisID = "XXX" # Get your App id from cusdis.com
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+# disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
+[[Params.bigimg]]
+src = "img/spain-back.jpg"
+desc = "Gran Canaria, Spain"
+# [[Params.bigimg]]
 #  src = "img/sphere.jpg"
 #  desc = "Sphere"
 #  # position: see values of CSS background-position.
@@ -50,11 +50,11 @@ showRelatedPosts = true
 
 [Params.author]
 # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-name = "Some Person"
-website = "yourwebsite.com"
-email = "youremail@domain.com"
-github = "username"
-linkedin = "username"
+name = "Ben Kalmus"
+website = "benkalmus.com"
+email = "contact@benkalmus.com"
+github = "benkalmus"
+linkedin = "benkalmus"
 
 
 [[menu.main]]
@@ -67,28 +67,28 @@ name = "About"
 url = "page/about/"
 weight = 3
 
-[[menu.main]]
-identifier = "samples"
-name = "Samples"
-weight = 2
-
-[[menu.main]]
-parent = "samples"
-name = "Big Image Sample"
-url = "post/2017-03-07-bigimg-sample"
-weight = 1
-
-[[menu.main]]
-parent = "samples"
-name = "Math Sample"
-url = "post/2017-03-05-math-sample"
-weight = 2
-
-[[menu.main]]
-parent = "samples"
-name = "Code Sample"
-url = "post/2016-03-08-code-sample"
-weight = 3
+# [[menu.main]]
+# identifier = "samples"
+# name = "Samples"
+# weight = 2
+#
+# [[menu.main]]
+# parent = "samples"
+# name = "Big Image Sample"
+# url = "post/2017-03-07-bigimg-sample"
+# weight = 1
+#
+# [[menu.main]]
+# parent = "samples"
+# name = "Math Sample"
+# url = "post/2017-03-05-math-sample"
+# weight = 2
+#
+# [[menu.main]]
+# parent = "samples"
+# name = "Code Sample"
+# url = "post/2016-03-08-code-sample"
+# weight = 3
 
 [[menu.main]]
 name = "Tags"
